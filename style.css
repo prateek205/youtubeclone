@@ -72,16 +72,23 @@
 }
 
 .card {
+  /* border: 1px solid white; */
   width: 20%;
+  transition: all 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card video {
   width: 100%;
   height: 250px;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .card p {
-  margin-top: 8px;
+  padding: 10px 0px;
   font-size: 14px;
+  text-align: center;
 }
